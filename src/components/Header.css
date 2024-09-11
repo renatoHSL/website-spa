@@ -1,0 +1,83 @@
+/* Geral */
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #a39789; /* Linha fina abaixo do header para separação visual */
+  background-color: #EFE8E0; /* Cor de fundo do header */
+}
+
+/* Container principal do Header */
+.header__container {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos em uma coluna (logo acima da navegação) */
+  align-items: center; /* Centraliza os itens (logotipo e navegação) horizontalmente */
+  max-width: 1200px; /* Define a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container no meio da página */
+  padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+}
+
+/* Estilo do logotipo */
+.header__logo img {
+  height: 60px; /* Define a altura do logotipo */
+  margin-bottom: 10px; /* Adiciona um espaçamento entre o logotipo e a navegação */
+}
+
+/* Navegação (Lista de Links) */
+.header__nav ul {
+  display: flex; /* Coloca os itens da lista em uma linha horizontal */
+  list-style: none; /* Remove os marcadores padrão da lista (pontos) */
+  padding: 0; /* Remove o espaçamento interno da lista */
+  margin: 0; /* Remove as margens da lista */
+  gap: 30px; /* Define o espaçamento entre os links */
+}
+
+/* Estilo dos Links de Navegação */
+.header__nav a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  font-size: 20px; /* Define o tamanho da fonte dos links */
+  color: #7F6044; /* Define a cor dos links */
+}
+
+/* Mudança de cor ao passar o mouse sobre os links */
+.header__nav a:hover {
+  color: #9c7b57; /* Cor dos links ao passar o mouse */
+}
+
+/* Links da Navegação (estilo individual dos links) */
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links individuais */
+  color: #7F6044; /* Aplica a cor da fonte para os links individuais */
+}
+
+/* Configurações gerais da lista de navegação */
+nav ul {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 0; /* Remove o espaçamento interno da lista */
+}
+
+/* Estilo dos itens da lista */
+nav ul li {
+  display: inline; /* Exibe os itens da lista na horizontal */
+  margin: 0 10px; /* Define um espaçamento horizontal entre os links */
+}
+
+/* Ícone de Instagram */
+.header__social img {
+  height: 30px; /* Define o tamanho do ícone de Instagram */
+  filter: grayscale(100%); /* Aplica um filtro de escala de cinza no ícone */
+}
+
+/* Remove o efeito de escala de cinza ao passar o mouse */
+.header__social img:hover {
+  filter: grayscale(0); /* Remove o filtro de escala de cinza ao passar o mouse */
+}
+
+/* Estilos para dispositivos móveis (Responsivo) */
+@media (max-width: 768px) {
+  .header__container {
+    flex-direction: column; /* Alinha os elementos em uma coluna (logotipo acima da navegação) em telas menores */
+  }
+
+  .header__nav {
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo da navegação em telas menores */
+  }
+}

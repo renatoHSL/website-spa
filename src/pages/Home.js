@@ -4,16 +4,6 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
-            <header>
-                <h1>Bem-vindo ao SPA Beleza</h1>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/services">Serviços</a></li>
-                        <li><a href="/about">Sobre Mim</a></li>
-                    </ul>
-                </nav>
-            </header>
             <div className="horizontal-line"></div>
             <main>
                 <section>
