@@ -1,11 +1,71 @@
-.horizontal-line {
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    margin-top: 10px;
+main {
+    padding: 20px; /* Adiciona um espaçamento de 20px ao redor do conteúdo principal */
+    text-align: center; /* Centraliza o conteúdo dentro da tag <main> horizontalmente */
 }
 
+.video-container {
+    display: flex; /* Define o container da imagem como um flexbox */
+    justify-content: center; /* Centraliza a imagem horizontalmente dentro do container */
+    align-items: center; /* Centraliza a imagem verticalmente dentro do container */
+    height: 50vh; /* Define a altura do container da imagem para 50% da altura da tela (viewport height) */
+    overflow: hidden; /* Oculta qualquer parte da imagem que ultrapasse o tamanho do container */
+}
 
-main {
-    padding: 20px;
+.video-container img {
+    width: 50%; /* Define a largura da imagem para 50% da largura do container */
+    height: auto; /* Mantém a proporção da imagem ao redimensionar */
+    object-fit: cover; /* Garante que a imagem cubra toda a área visível, cortando se necessário para manter a proporção */
+}
+
+.about-us-container {
+    display: flex; /* Utiliza Flexbox para organizar o layout em colunas */
+    justify-content: space-between; /* Espaça o texto e a imagem nas extremidades */
+    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    padding: 90px;
+    background-color: #EFE8E0; /* Cor de fundo do container */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 1000px; /* Define uma largura máxima */
+    margin: 20px auto; /* Centraliza o container horizontalmente */
+}
+
+/* Texto e botão à esquerda */
+.about-us-text-container {
+    max-width: 50%; /* Define que o texto ocupa no máximo 50% do container */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.about-us-text-container h2 {
+    font-size: 2.5rem; /* Tamanho grande para o título */
+    color: #7F6044; /* Cor do texto */
+}
+
+.about-us-text-container p {
+    font-size: 1.2rem; /* Tamanho do parágrafo */
+    color: #7F6044; /* Cor do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+}
+
+.about-us-text-container button {
+    padding: 10px 20px; /* Tamanho do botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove as bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+.about-us-text-container button:hover {
+    background-color: #555; /* Muda a cor do botão ao passar o mouse */
+}
+
+/* Imagem à direita */
+.about-us-image-container {
+    max-width: 45%; /* Define que a imagem ocupa até 45% do container */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.about-us-image-container img {
+    width: 120%; /* Faz a imagem ocupar toda a largura do container da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas na imagem */
 }
