@@ -12,6 +12,10 @@ main {
     align-items: center; /* Centraliza a imagem verticalmente dentro do container */
     height: 50vh; /* Define a altura do container da imagem para 50% da altura da tela (viewport height) */
     overflow: hidden; /* Oculta qualquer parte da imagem que ultrapasse o tamanho do container */
+    margin-top: 200px; /* Ajuste o valor conforme a altura do seu header */
+    padding: 20px;
+    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    border-bottom: 1px solid #a39789;
 }
 
 .video-container img {
@@ -29,6 +33,8 @@ main {
     border-radius: 10px; /* Bordas arredondadas */
     max-width: 1000px; /* Define uma largura máxima */
     margin: 20px auto; /* Centraliza o container horizontalmente */
+    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    border-bottom: 1px solid #a39789;
 }
 
 /* Texto e botão à esquerda */
@@ -81,6 +87,8 @@ main {
     border-radius: 10px; /* Bordas arredondadas */
     max-width: 1200px; /* Largura máxima da seção */
     margin: 20px auto; /* Centraliza a seção na tela */
+    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    border-bottom: 1px solid #a39789;
 }
 
 .highlight-container h2 {
@@ -132,8 +140,9 @@ main {
 
 .map-container {
     margin: 50px auto;
-    max-width: 1000px; /* Largura máxima para o mapa */
+    max-width: 450px; /* Largura máxima igual à altura para manter o formato quadrado */
     height: 450px; /* Altura do mapa */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 10px; /* Bordas arredondadas, se quiser mantê-las */
     overflow: hidden; /* Oculta o conteúdo que ultrapassar os limites */
 }
+

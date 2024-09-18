@@ -1,8 +1,15 @@
 /* Geral */
 .header {
+  position: fixed; /* Mantém o header fixo no topo */
+  top: 0; /* Posiciona o header no topo da página */
+  left: 0; /* Garante que o header comece no canto esquerdo */
+  width: 100%; /* Faz o header ocupar toda a largura da página */
   padding: 20px 0;
   border-bottom: 1px solid #a39789; /* Linha fina abaixo do header para separação visual */
+  border-top: 1px solid #a39789; /* Adiciona a linha acima do header */
   background-color: #EFE8E0; /* Cor de fundo do header */
+  z-index: 1000; /* Garante que o header fique acima de outros elementos */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o header */
 }
 
 /* Container principal do Header */
@@ -18,14 +25,20 @@
 /* Estilo do logotipo */
 .header__logo img {
   height: 60px; /* Define a altura do logotipo */
-  margin-bottom: 10px; /* Adiciona um espaçamento entre o logotipo e a navegação */
+  margin-top: 10px;
+  margin-bottom: 5px; /* Adiciona um espaçamento entre o logotipo e a navegação */
 }
 
 /* Navegação (Lista de Links) */
+.header__nav {
+  border-top: 1px solid #a39789;
+  margin-top: 20px;
+}
+
 .header__nav ul {
   display: flex; /* Coloca os itens da lista em uma linha horizontal */
   list-style: none; /* Remove os marcadores padrão da lista (pontos) */
-  padding: 0; /* Remove o espaçamento interno da lista */
+  padding: 10px 0 0 0; /* Remove o espaçamento interno da lista */
   margin: 0; /* Remove as margens da lista */
   gap: 30px; /* Define o espaçamento entre os links */
 }
