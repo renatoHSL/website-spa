@@ -81,13 +81,17 @@ const Home = () => {
                     <h2>Venha nos visitar!</h2> {/* Título da seção de produtos */}
                     <div class="map-description-container">
                         <div class="map-description-block">
-                          <p>Rua Padre Elias Gorayeb, 15,<br /> Tijuca, RJ</p>
+                          <p>Endereço: Rua Padre Elias Gorayeb, 15. Sala 203. Tijuca. Rio de Janeiro. <br /> CEP 20520-140, RJ</p>
                         </div>
                         <div class="map-description-block">
-                          <p>Telefone: (21) XXXX-XXXX <br /> Email: xxxxx@xxx.com.br <br /> Instagram: @xxxxxx</p>
+                          <p>Telefone: (21) XXXX-XXXX <br /> Email: xxxxx@xxx.com.br <br /> Instagram: @egnestetica</p>
                         </div>
                         <div class="map-description-block">
-                          <p>Horário de funcionamento:<br />Todos os dias de 9h às 19h</p>
+                          <p>Horário de funcionamento:<br />
+                            Segunda a sexta: 09:00 – 19:00<br />
+                            Sábado: 08:00 – 14:00<br />
+                            Domingo: Fechado
+                            </p>
                         </div>
                       </div>
                     <iframe

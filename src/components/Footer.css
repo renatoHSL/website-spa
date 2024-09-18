@@ -7,6 +7,8 @@
 }
 
 .footer-container {
+  border-top: 1px solid #a39789;
+  border-bottom: 1px solid #a39789;
   display: flex; /* Ativa o Flexbox para alinhar os itens horizontalmente */
   justify-content: space-between; /* Espaça os itens (logotipo, menu e redes) igualmente */
   align-items: center; /* Alinha os itens verticalmente ao centro */
