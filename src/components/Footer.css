@@ -1,0 +1,56 @@
+/* Estilos gerais do footer */
+.footer {
+    background-color: #7F6044; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento ao redor do conteúdo */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.footer-container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    display: flex;
+    justify-content: space-between; /* Distribui as seções igualmente */
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" em novas linhas, se necessário */
+}
+
+/* Estilos dos links importantes */
+.footer-links a {
+    color: #fff; /* Cor dos links */
+    margin: 0 15px; /* Espaço entre os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.footer-links a:hover {
+    color: #EFE8E0; /* Cor ao passar o mouse */
+}
+
+/* Estilos das redes sociais */
+.footer-social a {
+    color: #fff; /* Cor dos ícones das redes sociais */
+    margin: 0 10px; /* Espaço entre os ícones */
+    font-size: 1.5rem; /* Tamanho dos ícones */
+}
+
+.footer-social a:hover {
+    color: #EFE8E0; /* Cor ao passar o mouse nos ícones */
+}
+
+/* Estilo da seção de direitos autorais */
+.footer-copyright p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Alinha os itens em coluna no mobile */
+        text-align: center;
+    }
+
+    .footer-links, .footer-social {
+        margin-bottom: 10px; /* Adiciona espaço entre as seções no mobile */
+    }
+}

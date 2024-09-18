@@ -1,3 +1,6 @@
+/*palheta de corres: #EFE8E0  #9D826A  */
+
+
 main {
     padding: 20px; /* Adiciona um espaçamento de 20px ao redor do conteúdo principal */
     text-align: center; /* Centraliza o conteúdo dentro da tag <main> horizontalmente */
@@ -68,4 +71,69 @@ main {
     width: 120%; /* Faz a imagem ocupar toda a largura do container da imagem */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 10px; /* Bordas arredondadas na imagem */
+}
+
+/* Container principal da área de destaque dos produtos */
+.highlight-container {
+    padding: 40px; /* Espaçamento interno da seção */
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    background-color: #EFE8E0; /* Cor de fundo suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 1200px; /* Largura máxima da seção */
+    margin: 20px auto; /* Centraliza a seção na tela */
+}
+
+.highlight-container h2 {
+    margin-bottom: 30px; /* Espaçamento inferior do título */
+    font-size: 2rem; /* Tamanho da fonte do título */
+    color: #7F6044; /* Cor do título */
+}
+
+/* Grade de produtos */
+.products-grid {
+    display: flex; /* Usa Flexbox para exibir os produtos lado a lado */
+    justify-content: space-around; /* Espaça os produtos igualmente */
+    flex-wrap: wrap; /* Permite que os itens "quebrem" em uma nova linha, se necessário */
+}
+
+/* Estilo de cada item de produto */
+.product-item {
+    max-width: 30%; /* Cada produto ocupa cerca de 30% da largura do container */
+    margin: 10px; /* Espaçamento ao redor de cada item */
+    text-align: center; /* Centraliza o texto e imagem dentro do produto */
+}
+
+.product-item img {
+    width: 100%; /* A imagem ocupa toda a largura do container do produto */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+    margin-bottom: 10px; /* Espaço entre a imagem e a descrição */
+}
+
+.product-item p {
+    font-size: 1.2rem; /* Tamanho da fonte da descrição */
+    color: #555; /* Cor da fonte da descrição */
+}
+
+/* Estilo do botão que troca as imagens */
+.change-images-button {
+    margin-top: 20px; /* Espaço acima do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    background-color: #7F6044; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Mostra o cursor de "mão" ao passar sobre o botão */
+}
+
+.change-images-button:hover {
+    background-color: #9c7b57; /* Cor de fundo quando o botão é "hovered" */
+}
+
+.map-container {
+    margin: 50px auto;
+    max-width: 1000px; /* Largura máxima para o mapa */
+    height: 450px; /* Altura do mapa */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassar os limites */
 }
