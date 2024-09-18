@@ -20,6 +20,7 @@
   max-width: 1200px; /* Define a largura máxima do container */
   margin: 0 auto; /* Centraliza o container no meio da página */
   padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+  justify-content: center; /* Centraliza o conteúdo */
 }
 
 /* Estilo do logotipo */
@@ -55,6 +56,10 @@
   color: #9c7b57; /* Cor dos links ao passar o mouse */
 }
 
+.header-nav li {
+  display: inline-block;
+}
+
 /* Links da Navegação (estilo individual dos links) */
 nav ul li a {
   text-decoration: none; /* Remove o sublinhado dos links individuais */
@@ -74,13 +79,14 @@ nav ul li {
 }
 
 /* Ícone de Instagram */
-.header__social img {
+.header__social {
   height: 30px; /* Define o tamanho do ícone de Instagram */
-  filter: grayscale(100%); /* Aplica um filtro de escala de cinza no ícone */
+  font-size: 30px; /* Define o tamanho do ícone do Instagram */
+  color: #7F6044; /* Define a cor do ícone */
 }
 
 /* Remove o efeito de escala de cinza ao passar o mouse */
-.header__social img:hover {
+.header__social:hover {
   filter: grayscale(0); /* Remove o filtro de escala de cinza ao passar o mouse */
 }
 

@@ -1,5 +1,11 @@
 /*palheta de corres: #EFE8E0  #9D826A  */
 
+body {
+  font-family: 'Montserrat', sans-serif; /* Altera a fonte para Montserrat */
+  margin: 0;
+  padding: 0;
+  background-color: #EFE8E0; /* Cor de fundo global */
+}
 
 main {
     padding: 20px; /* Adiciona um espaçamento de 20px ao redor do conteúdo principal */
@@ -139,10 +145,48 @@ main {
 }
 
 .map-container {
-    margin: 50px auto;
-    max-width: 450px; /* Largura máxima igual à altura para manter o formato quadrado */
-    height: 450px; /* Altura do mapa */
-    border-radius: 10px; /* Bordas arredondadas, se quiser mantê-las */
-    overflow: hidden; /* Oculta o conteúdo que ultrapassar os limites */
+  margin: 50px auto;
+  max-width: 1000px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
 }
 
+.map-description-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.map-description-block {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  color: #7F6044;
+  padding: 10px;
+}
+
+.map-description-block p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsivo - Para telas menores */
+@media (max-width: 768px) {
+  .about-us-container, .map-description-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .products-grid {
+    flex-direction: column;
+  }
+
+  .about-us-text-container, .about-us-image-container {
+    max-width: 100%;
+  }
+}

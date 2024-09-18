@@ -1,38 +1,41 @@
 import React from 'react';
-import './Footer.css'; // Importa o arquivo de estilo CSS
+import './Footer.css';
+import logo from '../assets/header/logo-header/header-logo.png'; // Caminho da imagem do logotipo
+import { FaInstagram } from 'react-icons/fa'; // Ícone do Instagram
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            <div className="footer-container">
-                {/* Seção de links importantes */}
-                <div className="footer-links">
-                    <a href="/about">Sobre nós</a>
-                    <a href="/services">Serviços</a>
-                    <a href="/contact">Contato</a>
-                    <a href="/privacy-policy">Política de Privacidade</a>
-                </div>
+  return (
+    <footer className="footer">
+      <div className="footer-container">
+        {/* Seção de logo */}
+        <div className="footer-logo">
+          <img src={logo} alt="EGN Estética e SPA" />
+        </div>
 
-                {/* Seção de redes sociais */}
-                <div className="footer-social">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-facebook-f"></i> {/* Ícone do Facebook */}
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-instagram"></i> {/* Ícone do Instagram */}
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-twitter"></i> {/* Ícone do Twitter */}
-                    </a>
-                </div>
+        {/* Seção de Menu */}
+        <div className="footer-menu">
+          <h3>MENU</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
 
-                {/* Seção de direitos autorais */}
-                <div className="footer-copyright">
-                    <p>&copy; {new Date().getFullYear()} SPA Beleza. Todos os direitos reservados.</p>
-                </div>
-            </div>
-        </footer>
-    );
+        {/* Seção de Redes Sociais */}
+        <div className="footer-social">
+          <h3>NOSSAS REDES</h3>
+          <FaInstagram className="social-icon" /> {/* Ícone de Instagram */}
+        </div>
+      </div>
+
+      {/* Direitos reservados */}
+      <div className="footer-rights">
+        <p>EGN © 2024 Direitos reservados. <a href="#privacy">Política de Privacidade</a></p>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

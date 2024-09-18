@@ -78,6 +78,18 @@ const Home = () => {
                 </div>
                 {/* Seção do Google Maps */}
                 <div className="map-container">
+                    <h2>Venha nos visitar!</h2> {/* Título da seção de produtos */}
+                    <div class="map-description-container">
+                        <div class="map-description-block">
+                          <p>Rua Padre Elias Gorayeb, 15,<br /> Tijuca, RJ</p>
+                        </div>
+                        <div class="map-description-block">
+                          <p>Telefone: (21) XXXX-XXXX <br /> Email: xxxxx@xxx.com.br <br /> Instagram: @xxxxxx</p>
+                        </div>
+                        <div class="map-description-block">
+                          <p>Horário de funcionamento:<br />Todos os dias de 9h às 19h</p>
+                        </div>
+                      </div>
                     <iframe
                         title="Localização do SPA" /* Adiciona um título ao iframe para acessibilidade */
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.6261234446984!2d-43.234223699995525!3d-22.925689899991152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU1JzMyLjUiUyA0M8KwMTQnMDMuMiJX!5e0!3m2!1spt-BR!2sbr!4v1630461013475!5m2!1spt-BR!2sbr"
@@ -89,9 +101,6 @@ const Home = () => {
                     </iframe>
                 </div>
             </main>
-            <footer>
-                <p>&copy; 2024 SPA Beleza. Todos os direitos reservados.</p> {/* Texto de rodapé */}
-            </footer>
         </div>
     );
 };
