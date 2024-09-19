@@ -19,9 +19,9 @@ const Header = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">Sobre nós</Link></li>
                 <li><Link to="/services">Serviços</Link></li>
-                <li><Link to="/contact">Contato</Link></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><Link to="/reviews">Reviews</Link></li>
-                <li><a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a></li> {/* Ícone do Instagram ao lado de "Reviews" */}
+                <li><a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a></li>
               </ul>
             </nav>
         </div>

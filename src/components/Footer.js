@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Seção de Redes Sociais */}
         <div className="footer-social">
           <h3>NOSSAS REDES</h3>
-          <FaInstagram className="social-icon" /> {/* Ícone de Instagram */}
+          <a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a>
         </div>
       </div>
 

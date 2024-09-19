@@ -1,4 +1,8 @@
-/*palheta de corres: #EFE8E0  #9D826A  */
+/*Palheta de corres: #EFE8E0  #9D826A  */
+
+html {
+  scroll-behavior: smooth
+}
 
 body {
   font-family: 'Montserrat', arial; /* Altera a fonte para Montserrat */
@@ -145,48 +149,49 @@ main {
 }
 
 .map-container {
-  margin: 50px auto;
-  max-width: 1000px;
-  height: 450px;
-  border-radius: 10px;
-  overflow: hidden;
-  padding: 20px;
-  text-align: center;
+  margin: 10px auto; /* Centraliza o contêiner horizontalmente com margem */
+  max-width: 900px; /* Define a largura máxima do contêiner */
+  height: 500px; /* Define a altura fixa do contêiner */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
+  padding: 50px; /* Espaçamento interno do contêiner */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
 }
 
 .map-description-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  max-width: 100%;
-  text-align: left;
+  display: flex; /* Exibe os itens em um layout flexível */
+  justify-content: space-between; /* Espaça igualmente os itens no contêiner */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do contêiner */
+  max-width: 100%; /* Limita a largura máxima a 100% do pai */
+  text-align: left; /* Alinha o texto à esquerda */
 }
 
 .map-description-block {
-  flex: 1;
-  min-width: 200px;
-  text-align: center;
-  color: #7F6044;
-  padding: 10px;
+  flex: 1; /* Itens crescem igualmente dentro do contêiner flex */
+  min-width: 200px; /* Define a largura mínima dos blocos */
+  text-align: center; /* Centraliza o texto dentro do bloco */
+  color: #7F6044; /* Define a cor do texto */
+  padding: 10px; /* Adiciona espaçamento interno ao bloco */
 }
 
 .map-description-block p {
-  margin: 0;
-  line-height: 1.5;
+  margin: 0; /* Remove margens externas do parágrafo */
+  line-height: 1.5; /* Define a altura da linha */
 }
 
 /* Responsivo - Para telas menores */
 @media (max-width: 768px) {
   .about-us-container, .map-description-container {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    text-align: center; /* Centraliza o texto em dispositivos menores */
   }
 
   .products-grid {
-    flex-direction: column;
+    flex-direction: column; /* Alinha produtos em coluna para telas menores */
   }
 
   .about-us-text-container, .about-us-image-container {
-    max-width: 100%;
+    max-width: 100%; /* Define largura máxima para 100% */
   }
 }
+
