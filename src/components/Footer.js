@@ -32,7 +32,7 @@ const Footer = () => {
 
       {/* Direitos reservados */}
       <div className="footer-rights">
-        <p>EGN © 2024 Direitos reservados. <a href="#privacy">Política de Privacidade</a></p>
+        <p>EGN © 2024 Todos os direitos reservados.</p>
       </div>
     </footer>
   );
