@@ -5,7 +5,6 @@ body, html {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #EFE8E0; /* Cor de fundo para todo o site */
   min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
   box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho dos elementos */
   color: #7F6044
