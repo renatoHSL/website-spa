@@ -1,3 +1,42 @@
 .about-us {
-  margin-top: 200px; /* Ajuste o valor conforme a altura do seu header */
+  padding: 200px;
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+}
+
+.about-content {
+  display: flex; /* Alinha a imagem e o texto lado a lado */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 40px; /* Espaço entre o texto e a imagem */
+  flex-wrap: wrap; /* Permite que a imagem e o texto se ajustem em telas menores */
+}
+
+.about-text {
+  flex: 1; /* O texto ocupa o espaço restante */
+  max-width: 600px; /* Largura máxima do texto */
+}
+
+.about-image {
+  flex: 1; /* A imagem ocupa o espaço restante */
+  max-width: 400px; /* Largura máxima da imagem */
+}
+
+.about-image img {
+  width: 100%; /* A imagem ocupa toda a largura do container */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+@media (max-width: 768px) {
+  .about-content {
+      flex-direction: column; /* Empilha o texto e a imagem em telas menores */
+      align-items: center; /* Centraliza o conteúdo */
+  }
+
+  .about-image {
+      max-width: 300px; /* Reduz a largura máxima da imagem em telas menores */
+      margin-bottom: 20px; /* Espaço inferior para a imagem */
+  }
 }

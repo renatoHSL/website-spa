@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importa o hook useNavigate
 import './Home.css'; // Importa o arquivo de estilo CSS
 import spaImage from '../assets/home/main_video/mainphoto.png'; // Importa a imagem principal para ser usada no componente
 import placeholder from '../assets/home/placeholder/placeholder.png'; // Outra imagem para a seção "Conheça nossa História"
 import product1 from '../assets/products/placeholder1.png'; // Imagem do primeiro produto
-import product2 from '../assets/products/placeholder2.png'; // Imagem do segundo produto
-import product3 from '../assets/products/placeholder3.png'; // Imagem do terceiro produto
 import product4 from '../assets/products/placeholder4.png'; // Imagem do quarto produto
-import product5 from '../assets/products/placeholder5.png'; // Imagem do quinto produto
-import product6 from '../assets/products/placeholder6.png'; // Imagem do sexto produto
+
 
 const Home = () => {
+    const navigate = useNavigate(); // Hook para navegação
+
+    const handleButtonClick = () => {
+        navigate('/about'); // Navega para a página "About"
+    };
     // Definindo o estado inicial para controlar o conjunto de imagens exibido
     const [currentImages, setCurrentImages] = useState(0);
     const [animate, setAnimate] = useState(false); // Estado para controlar a animação
@@ -18,13 +21,13 @@ const Home = () => {
     const products = [
         [
             { image: product1, description: "Produto 1 - Descrição detalhada" },
-            { image: product2, description: "Produto 2 - Descrição detalhada" },
-            { image: product3, description: "Produto 3 - Descrição detalhada" }
+            { image: product1, description: "Produto 2 - Descrição detalhada" },
+            { image: product1, description: "Produto 3 - Descrição detalhada" }
         ],
         [
             { image: product4, description: "Produto 4 - Descrição detalhada" },
-            { image: product5, description: "Produto 5 - Descrição detalhada" },
-            { image: product6, description: "Produto 6 - Descrição detalhada" }
+            { image: product4, description: "Produto 5 - Descrição detalhada" },
+            { image: product4, description: "Produto 6 - Descrição detalhada" }
         ]
     ];
 
@@ -51,7 +54,7 @@ const Home = () => {
                     <div className="about-us-text-container">
                         <h2>Conheça nossa História</h2> {/* Título da seção */}
                         <p>Oferecemos os melhores serviços de spa para relaxamento e bem-estar. Descubra a nossa jornada e o compromisso com o seu bem-estar.</p> {/* Texto descritivo */}
-                        <button>Saiba Mais</button> {/* Botão de ação */}
+                        <button className="change-images-button" onClick={handleButtonClick}>Saiba Mais</button> {/* Botão de ação */}
                     </div>
 
                     {/* Imagem à direita */}

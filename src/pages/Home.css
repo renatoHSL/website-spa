@@ -64,18 +64,6 @@ main {
     margin-bottom: 20px; /* Espaço abaixo do parágrafo */
 }
 
-.about-us-text-container button {
-    padding: 10px 20px; /* Tamanho do botão */
-    background-color: #333; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    border: none; /* Remove as bordas padrão */
-    border-radius: 5px; /* Bordas arredondadas no botão */
-    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
-}
-
-.about-us-text-container button:hover {
-    background-color: #555; /* Muda a cor do botão ao passar o mouse */
-}
 
 /* Imagem à direita */
 .about-us-image-container {

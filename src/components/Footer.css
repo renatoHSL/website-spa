@@ -4,6 +4,7 @@
   padding: 20px 0; /* Define o espaçamento interno (padding) do rodapé, reduzido para 20px */
   text-align: center; /* Centraliza o texto dentro do rodapé */
   color: #7F6044; /* Define a cor do texto */
+  margin-left: 55px;
 }
 
 .footer-container {
@@ -53,6 +54,7 @@
 .footer-rights {
   margin-top: 15px; /* Espaçamento acima dos direitos reservados */
   font-size: 0.9rem; /* Define o tamanho da fonte para o texto dos direitos reservados */
+  margin-right: 35px;
 }
 
 .footer-rights a {
