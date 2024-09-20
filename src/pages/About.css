@@ -3,7 +3,6 @@
   max-width: 1200px; /* Largura máxima do container */
   margin: 0 auto; /* Centraliza o container */
   line-height: 1.6; /* Espaçamento entre linhas */
-  font-family: 'Arial', sans-serif; /* Fonte padrão */
 }
 
 .about-content {

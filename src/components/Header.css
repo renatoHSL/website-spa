@@ -1,4 +1,5 @@
-/* Geral */
+/* Header.css */
+
 .header {
   position: fixed; /* Mantém o header fixo no topo */
   top: 0; /* Posiciona o header no topo da página */
@@ -38,6 +39,8 @@
 
 .header__nav ul {
   display: flex; /* Coloca os itens da lista em uma linha horizontal */
+  justify-content: center; /* Centraliza os itens do menu */
+  align-items: center; /* Centraliza verticalmente os itens */
   list-style: none; /* Remove os marcadores padrão da lista (pontos) */
   padding: 10px 0 0 0; /* Remove o espaçamento interno da lista */
   margin: 0; /* Remove as margens da lista */
@@ -46,36 +49,15 @@
 
 /* Estilo dos Links de Navegação */
 .header__nav a {
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  font-size: 20px; /* Define o tamanho da fonte dos links */
-  color: #7F6044; /* Define a cor dos links */
+  font-size: 23px; /* Alinha o tamanho da fonte dos links */
+  text-decoration: none;
+  color: #7F6044; /* Altera a cor para coincidir com o restante do menu */
+  padding: 10px; /* Padding interno dos itens */
 }
 
 /* Mudança de cor ao passar o mouse sobre os links */
 .header__nav a:hover {
   color: #9c7b57; /* Cor dos links ao passar o mouse */
-}
-
-.header-nav li {
-  display: inline-block;
-}
-
-/* Links da Navegação (estilo individual dos links) */
-nav ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links individuais */
-  color: #7F6044; /* Aplica a cor da fonte para os links individuais */
-}
-
-/* Configurações gerais da lista de navegação */
-nav ul {
-  list-style: none; /* Remove os marcadores de lista padrão */
-  padding: 0; /* Remove o espaçamento interno da lista */
-}
-
-/* Estilo dos itens da lista */
-nav ul li {
-  display: inline; /* Exibe os itens da lista na horizontal */
-  margin: 0 10px; /* Define um espaçamento horizontal entre os links */
 }
 
 /* Ícone de Instagram */

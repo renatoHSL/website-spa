@@ -3,6 +3,7 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import logo from "../assets/header/logo-header/header-logo.png";
 import { FaInstagram } from 'react-icons/fa'; // Ícone do Instagram
+import DropdownMenu from './DropdownMenu'; // Importa o componente DropdownMenu
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">Sobre nós</Link></li>
-                <li><Link to="/services">Serviços</Link></li>
+                <li><DropdownMenu /></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><Link to="/reviews">Reviews</Link></li>
                 <li><a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a></li>

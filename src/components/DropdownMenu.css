@@ -1,0 +1,58 @@
+/* DropdownMenu.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'Montserrat', arial; /* Fonte específica para o dropdown */
+  color: #7F6044; /* Cor dos links do dropdown */
+  text-align: center; /* Centraliza o texto no dropdown */
+}
+
+.dropbtn {
+  background-color: transparent; /* Fundo transparente como os outros links */
+  color: #7F6044; /* Cor do botão */
+  padding: 10px 15px; /* Ajuste do padding */
+  font-size: 23px; /* Tamanho do botão do dropdown */
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', arial;
+  text-decoration: none; /* Remove o sublinhado */
+  font-weight: 400; /* Alinha a espessura da fonte com o restante */
+}
+
+/* Ajusta a posição e o alinhamento do dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0; /* Alinha o dropdown à esquerda do botão "Serviços" */
+  top: 70%; /* Posiciona o dropdown abaixo do botão */
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Montserrat', arial; /* Fonte consistente */
+  padding: 0; /* Remove o padding adicional */
+  margin-top: 10px; /* Espaço entre o botão e o dropdown */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Suaviza a transição */
+}
+
+.dropdown-content a {
+  color: #7F6044;
+  padding: 12px 16px; /* Padding interno dos itens */
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', arial;
+  font-size: 16px; /* Tamanho consistente com o restante do menu */
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Mostra o dropdown quando o mouse estiver sobre a dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
