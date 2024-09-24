@@ -7,9 +7,9 @@ const DropdownMenu = () => {
     <div
       className="dropdown"
     >
-      <button className="dropbtn">
+      <Link to="/services" className="dropbtn">
         Serviços
-      </button>
+      </Link>
         <div
           className="dropdown-content">
           <Link to="/services/produto1">Bem-Estar e Relaxamento</Link>

@@ -23,7 +23,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="about-image">
-                        <img src="path/to/owners-photo.jpg" alt="Foto dos Donos do SPA" />
+                        <img src="" alt="Foto dos Donos do SPA" />
                         {/* Substitua 'path/to/owners-photo.jpg' pelo caminho real da imagem */}
                     </div>
                 </div>
