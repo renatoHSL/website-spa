@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Importa o hook useNavigate
 import './Home.css'; // Importa o arquivo de estilo CSS
-import spaImage from '../assets/home/main_video/mainphoto.png'; // Importa a imagem principal para ser usada no componente
-import placeholder from '../assets/home/placeholder/placeholder.png'; // Outra imagem para a seção "Conheça nossa História"
-import product1 from '../assets/products/placeholder1.png'; // Imagem do primeiro produto
-import product4 from '../assets/products/placeholder4.png'; // Imagem do quarto produto
+import spaImage from '../../assets/home/main_video/mainphoto.png'; // Importa a imagem principal para ser usada no componente
+import placeholder from '../../assets/home/placeholder/placeholder.png'; // Outra imagem para a seção "Conheça nossa História"
+import product1 from '../../assets/products/placeholder1.png'; // Imagem do primeiro produto
+import product4 from '../../assets/products/placeholder4.png'; // Imagem do quarto produto
 
 
 const Home = () => {

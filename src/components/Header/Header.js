@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import logo from "../assets/header/logo-header/header-logo.png";
+import logo from "../../assets/header/logo-header/header-logo.png";
 import { FaInstagram } from 'react-icons/fa'; // Ícone do Instagram
-import DropdownMenu from './DropdownMenu'; // Importa o componente DropdownMenu
+import DropdownMenu from '../DropdownMenu/DropdownMenu'; // Importa o componente DropdownMenu
 
 const Header = () => {
   return (

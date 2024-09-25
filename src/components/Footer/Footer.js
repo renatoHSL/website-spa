@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../assets/header/logo-header/header-logo.png'; // Caminho da imagem do logotipo
+import logo from '../../assets/header/logo-header/header-logo.png'; // Caminho da imagem do logotipo
 import { FaInstagram } from 'react-icons/fa'; // Ícone do Instagram
 
 const Footer = () => {
