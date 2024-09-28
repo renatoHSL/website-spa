@@ -24,6 +24,7 @@ const CategoryPage = () => {
             <img src={product.image} alt={product.title} className="product-image" />
             <h2>{product.title}</h2>
             <p>{product.description}</p>
+            <p><strong>Finalidade:</strong> {product.purpose}</p>
             <p><strong>Duração:</strong> {product.duration}</p>
             <p><strong>Preço:</strong> {product.price}</p>
           </div>
