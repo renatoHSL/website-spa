@@ -1,23 +1,26 @@
-/* Services.css */
-.services-page {
+/* Estilo principal para as páginas */
+.page {
     padding: 200px;
     font-family: 'Montserrat', Arial, sans-serif;
     text-align: center;
 }
 
-.services-page h1 {
+.page h1 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #7F6044;
+    color: #7F6044; /* Mesma cor para títulos em ambas as páginas */
 }
 
-.services-list {
+/* Listagem de serviços e produtos */
+.list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
 }
 
-.service-item {
+/* Estilo compartilhado para serviços e produtos */
+.item-card {
     background-color: #EFE8E0;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -29,33 +32,36 @@
     text-align: left;
 }
 
-.service-item:hover {
+.item-card:hover {
     transform: scale(1.05);
 }
 
-.service-image img {
+.item-card img {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
-.service-info {
+/* Informações dos itens (serviços ou produtos) */
+.item-info {
     margin-top: 15px;
 }
 
-.service-info h2 {
+.item-info h2 {
     font-size: 24px;
-    color: #7F6044;
+    color: #7F6044; /* Cor do título consistente */
 }
 
-.service-info p {
+.item-info p {
     font-size: 16px;
     color: #555;
     line-height: 1.5;
     margin: 10px 0;
 }
 
-.service-link {
+/* Links de ação (botões) para serviços ou produtos */
+.item-link {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -63,8 +69,9 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    background-color: #EFE8E0;
 }
 
-.service-link:hover {
+.item-image {
+
 }
+
