@@ -1,11 +1,10 @@
-// src/data/productData.js
 import bemEstarImg from '../assets/products/placeholder1.png';
 
 const productsData = [
     {
         category: 'Bem-Estar e Relaxamento',
         description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
-        image: bemEstarImg, // Substitua pelo caminho real da imagem
+        image: bemEstarImg,
         link: '/bem-estar-e-relaxamento',
         products: [
         {
@@ -62,6 +61,9 @@ const productsData = [
     },
     {
       category: 'Estética Corporal',
+      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      image: bemEstarImg,
+      link: '/bem-estar-e-relaxamento',
       products: [
         {
             id: 'drenagem-linfatica',
@@ -81,7 +83,7 @@ const productsData = [
             image: bemEstarImg,
             duration: '60 minutos',
             price: 'R$170,00',
-            purpose: ''
+            purpose: 'Bem-estar, redução de medidas, melhora da circulação sanguínea e linfática, aumento da elasticidade, melhora na aparência da pele. '
         },
         {
             id: 'esfoliacao-corporal',
@@ -113,11 +115,13 @@ const productsData = [
             price: 'R$200,00',
             purpose: 'Bem-estar, efeito de rejuvenescimento e firmamento, melhora da aparência da pele, redução de poros, acalma, nutre e hidrata.'
           }
-        // Adicione mais produtos aqui
       ],
     },
     {
       category: 'Estética Facial',
+      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      image: bemEstarImg,
+      link: '/bem-estar-e-relaxamento',
       products: [
         {
             id: 'limpeza-pele-egn',
@@ -189,11 +193,13 @@ const productsData = [
             price: 'R$110,00',
             purpose: 'Bem-estar. Potencializa a elasticidade e a firmeza da pele.'
           }
-        // Adicione mais produtos aqui
       ],
     },
     {
       category: 'Gestante e Pós-Parto',
+      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      image: bemEstarImg,
+      link: '/bem-estar-e-relaxamento',
       products: [
         {
             id: 'healthy-mom',
@@ -214,13 +220,15 @@ const productsData = [
             duration: 'Sob consulta',
             price: 'Sob consulta',
             purpose: 'Bem-estar, relaxamento, redução na retenção de líquidos e no inchaço característico.',
-            notes: 'Orientações acerca do período em que o tratamento pode ser realizado devem ser previamente consultadas.'
+            notes: 'Consulte nossa equipe para uma avaliação personalizada antes de agendar o tratamento.'
           }
-        // Adicione mais produtos aqui
       ],
     },
     {
       category: 'Demais Tratamentos',
+      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      image: bemEstarImg,
+      link: '/bem-estar-e-relaxamento',
       products: [
         {
             id: 'banho-de-lua',
@@ -261,13 +269,15 @@ const productsData = [
             duration: 'Sob consulta',
             price: 'Sob consulta',
             purpose: 'Tratamento personalizado de acordo com a necessidade de recuperação pós-operatória.',
-            notes: 'Consulte nossa especialista para uma avaliação personalizada antes de agendar o tratamento.'
+            notes: 'Consulte nossa equipe para uma avaliação personalizada antes de agendar o tratamento.'
           }
-        // Adicione mais produtos aqui
       ],
     },
     {
       category: 'Combos',
+      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      image: bemEstarImg,
+      link: '/bem-estar-e-relaxamento',
       products: [
         {
             id: 'massagem-relaxante-escalda-pes',
@@ -276,7 +286,6 @@ const productsData = [
             image: bemEstarImg,
             duration: '90 minutos',
             price: 'R$190,00'
-            // Este tratamento não possui a propriedade 'purpose'
           },
           {
             id: 'pedras-quentes-escalda-pes',
@@ -285,7 +294,6 @@ const productsData = [
             image: bemEstarImg,
             duration: '90 minutos',
             price: 'R$240,00'
-            // Este tratamento não possui a propriedade 'purpose'
           },
           {
             id: 'candle-massage-escalda-pes',
@@ -294,9 +302,7 @@ const productsData = [
             image: bemEstarImg,
             duration: '90 minutos',
             price: 'R$240,00'
-            // Este tratamento não possui a propriedade 'purpose'
           }
-        // Adicione mais produtos aqui
       ],
     },
   ];

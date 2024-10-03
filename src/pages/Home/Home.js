@@ -99,7 +99,7 @@ const Home = () => {
                       </div>
                     <iframe
                         title="Localização do SPA" /* Adiciona um título ao iframe para acessibilidade */
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.6261234446984!2d-43.234223699995525!3d-22.925689899991152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU1JzMyLjUiUyA0M8KwMTQnMDMuMiJX!5e0!3m2!1spt-BR!2sbr!4v1630461013475!5m2!1spt-BR!2sbr"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14698.664615643429!2d-43.2342505!3d-22.9256814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f4d7561d4d5%3A0xa61dbd89d1ecad47!2sEGN%20-%20Est%C3%A9tica%20e%20Spa!5e0!3m2!1spt-BR!2sbr!4v1727910503098!5m2!1spt-BR!2sbrade"
                         width="100%"
                         height="350"
                         style={{ border: "0" }} /* Certifique-se de usar um objeto para a prop 'style' */

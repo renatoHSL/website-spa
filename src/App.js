@@ -7,7 +7,8 @@ import About from './pages/About/About';
 import Footer from './components/Footer/Footer';
 import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 import CategoryPage from './pages/Products/CategoryPage';
-import ProductPageWrapper from './pages/Products/ProductPage'; // Adicionei a importação do ProductPageWrapper
+import ProductPageWrapper from './pages/Products/ProductPage';
+import ReviewsPage from './pages/ReviewsPage/ReviewsPage';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/services/:categoryId" element={<CategoryPage />} />
-          <Route path="/produto/:productId" element={<ProductPageWrapper />} /> {/* Nova rota para a página de produto */}
+          <Route path="/services/:categoryId/:productId" element={<ProductPageWrapper />} />
+          <Route path="/reviews" element={<ReviewsPage />} />
         </Routes>
         <Footer />
       </div>

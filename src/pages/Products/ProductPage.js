@@ -7,10 +7,9 @@ import './ProductsPage.css';
 const ProductPageWrapper = () => {
   const { productId } = useParams();
 
-  // Encontrar o produto correspondente ao productId (como string)
   const product = productsData
     .flatMap(category => category.products)
-    .find(prod => prod.id === productId); // Remova o parseInt e compare como string
+    .find(prod => prod.id === productId);
 
   if (!product) {
     return <div>Produto não encontrado!</div>;
@@ -19,8 +18,6 @@ const ProductPageWrapper = () => {
   return <ProductPage product={product} />;
 };
 
-// Componente de exibição do produto
-// Componente de exibição do produto
 const ProductPage = ({ product }) => {
   return (
     <div className="product-page">

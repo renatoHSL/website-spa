@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="page">
       <main>
-        <div className='title-page-name'>
+        <div className="title-page-name">
           <h1>Nossos Serviços</h1>
         </div>
         <div className="list">
@@ -17,11 +17,12 @@ const Services = () => {
               <Link to={`/services/${category.category.toLowerCase().replace(/\s+/g, '-')}`} className="item-link">
                 <div className="item-image">
                   {/* Usa a imagem do primeiro produto da categoria como miniatura */}
-                  <img src={category.products[0].image} alt={category.category} />
+                  <img src={category.image} alt={category.category} />
                 </div>
                 <div className="item-info">
                   <h2>{category.category}</h2>
-                  <p>{category.products[0].description}</p> {/* Breve descrição do primeiro produto */}
+                  {/* Exibe a descrição da categoria */}
+                  <p>{category.description}</p> {/* Corrigido para exibir a descrição da categoria */}
                 </div>
               </Link>
             </div>
