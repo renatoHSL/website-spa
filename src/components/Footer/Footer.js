@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/header/logo-header/header-logo.png'; // Caminho da imagem do logotipo
-import { FaInstagram } from 'react-icons/fa'; // Ícone do Instagram
+import { FaInstagram, FaFacebook } from 'react-icons/fa'; // Ícone do Instagram
 
 const Footer = () => {
   return (
@@ -24,11 +24,17 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Seção de Redes Sociais */}
         <div className="footer-social">
           <h3>NOSSAS REDES</h3>
-          <a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a>
+            <a href="https://www.instagram.com/egnestetica/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="social-icon" />
+            </a>
+
+            <a href="https://www.facebook.com/egnestetica" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="social-icon" />
+            </a>
         </div>
+
       </div>
 
       {/* Direitos reservados */}

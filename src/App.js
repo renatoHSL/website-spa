@@ -5,7 +5,7 @@ import Home from './pages/Home/Home';
 import Services from './pages/Products/Services';
 import About from './pages/About/About';
 import Footer from './components/Footer/Footer';
-import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
+import SocialButtons from './components/SocialButtons/SocialButtons';
 import CategoryPage from './pages/Products/CategoryPage';
 import ProductPageWrapper from './pages/Products/ProductPage';
 import ReviewsPage from './pages/ReviewsPage/ReviewsPage';
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <WhatsAppButton />
+      <SocialButtons />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

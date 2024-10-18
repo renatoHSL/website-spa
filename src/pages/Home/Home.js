@@ -75,7 +75,7 @@ const Home = () => {
                             </div>
                         ))}
                     </div>
-                    <button id="contato" className="change-images-button" onClick={handleChangeImages}>  {/*id contatos aqui para que o rolamento da pagina fique na posicao correta*/}
+                    <button id="contact-section" className="change-images-button" onClick={handleChangeImages}>  {/*id contatos aqui para que o rolamento da pagina fique na posicao correta*/}
                         Ver Mais Produtos {/* Botão para trocar as imagens */}
                     </button>
                 </div>

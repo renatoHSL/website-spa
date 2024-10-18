@@ -3,7 +3,7 @@ import bemEstarImg from '../assets/products/placeholder1.png';
 const productsData = [
     {
         category: 'Bem-Estar e Relaxamento',
-        description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+        description: 'Desejamos que você tenha uma vida equilibrada, bela e saudável. Por isso, promover bem-estar e estimular práticas e sensações de relaxamento é fundamental para nós.',
         image: bemEstarImg,
         link: '/bem-estar-e-relaxamento',
         products: [
@@ -61,7 +61,7 @@ const productsData = [
     },
     {
       category: 'Estética Corporal',
-      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      description: 'Nossos serviços e protocolos dedicados ao cuidado com o corpo, para que você se sinta bem para além dele.',
       image: bemEstarImg,
       link: '/bem-estar-e-relaxamento',
       products: [
@@ -119,7 +119,7 @@ const productsData = [
     },
     {
       category: 'Estética Facial',
-      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      description: 'Tratamentos personalizados que unem técnica e os melhores produtos para o cuidado com a pele do seu rosto. ',
       image: bemEstarImg,
       link: '/bem-estar-e-relaxamento',
       products: [
@@ -197,7 +197,7 @@ const productsData = [
     },
     {
       category: 'Gestante e Pós-Parto',
-      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      description: 'Sabemos que a maternidade traz desafios particulares e únicos. Temos tratamentos especiais desenvolvidos para nossas gestantes e novas mamães. Pensamos com muito amor em técnicas que promovam o máximo de relaxamento e bem-estar para cada etapa da maternidade. ',
       image: bemEstarImg,
       link: '/bem-estar-e-relaxamento',
       products: [
@@ -226,7 +226,7 @@ const productsData = [
     },
     {
       category: 'Demais Tratamentos',
-      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      description: 'Não são os “outros”. Todos os nossos tratamentos são demais e pensados especialmente para você. Confira.',
       image: bemEstarImg,
       link: '/bem-estar-e-relaxamento',
       products: [
@@ -275,7 +275,7 @@ const productsData = [
     },
     {
       category: 'Combos',
-      description: 'Desfrute de uma variedade de serviços de massagem e relaxamento projetados para aliviar o estresse e promover o bem-estar geral.',
+      description: 'Pensamos em pacotes que te façam aproveitar ao máximo os benefícios dos nossos tratamentos, que você sinta e veja resultado, com preços e benefícios especiais. Experiência completa.',
       image: bemEstarImg,
       link: '/bem-estar-e-relaxamento',
       products: [

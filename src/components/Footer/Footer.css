@@ -1,74 +1,74 @@
-/* Estilos para o rodapé */
 .footer {
-  background-color: #EFE8E0; /* Define a cor de fundo do rodapé */
-  padding: 20px 0; /* Define o espaçamento interno (padding) do rodapé, reduzido para 20px */
-  text-align: center; /* Centraliza o texto dentro do rodapé */
-  color: #7F6044; /* Define a cor do texto */
+  background-color: #EFE8E0;
+  padding: 20px 0;
+  text-align: center;
+  color: #7F6044;
   margin-left: 55px;
 }
 
 .footer-container {
   border-top: 1px solid #a39789;
   border-bottom: 1px solid #a39789;
-  display: flex; /* Ativa o Flexbox para alinhar os itens horizontalmente */
-  justify-content: space-between; /* Espaça os itens (logotipo, menu e redes) igualmente */
-  align-items: center; /* Alinha os itens verticalmente ao centro */
-  max-width: 500px; /* Define a largura máxima do container */
-  margin: 0 auto; /* Centraliza o container horizontalmente */
-  gap: 20px; /* Espaçamento entre as colunas, ajustado para ficarem mais próximas */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .footer-logo img {
-  height: 60px; /* Define a altura do logotipo */
+  height: 60px;
 }
 
 .footer-menu, .footer-social {
-  text-align: center; /* Centraliza o conteúdo do menu e das redes sociais */
+  text-align: center;
 }
 
 .footer-menu h3, .footer-social h3 {
-  font-size: 1.2rem; /* Define o tamanho da fonte para os títulos das seções */
-  margin-bottom: 10px; /* Espaçamento abaixo dos títulos */
-  color: #7F6044; /* Define a cor dos títulos */
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #7F6044;
 }
 
 .footer-menu ul {
-  list-style: none; /* Remove os marcadores da lista (bolinhas) */
-  padding: 0; /* Remove o espaçamento interno (padding) da lista */
+  list-style: none;
+  padding: 0;
 }
 
 .footer-menu ul li {
-  margin-bottom: 5px; /* Reduz o espaçamento entre os itens do menu */
+  margin-bottom: 5px;
 }
 
 .footer-menu ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links */
-  color: #7F6044; /* Define a cor dos links do menu */
+  text-decoration: none;
+  color: #7F6044;
 }
 
 .footer-social .social-icon {
-  font-size: 30px; /* Define o tamanho do ícone do Instagram */
-  color: #7F6044; /* Define a cor do ícone */
+  font-size: 30px;
+  color: #7F6044;
+  margin-right: 15px;
 }
 
 .footer-rights {
-  margin-top: 15px; /* Espaçamento acima dos direitos reservados */
-  font-size: 0.9rem; /* Define o tamanho da fonte para o texto dos direitos reservados */
+  margin-top: 15px;
+  font-size: 0.9rem;
   margin-right: 35px;
 }
 
 .footer-rights a {
-  text-decoration: none; /* Remove o sublinhado do link da política de privacidade */
-  color: #7F6044; /* Define a cor do link */
+  text-decoration: none;
+  color: #7F6044;
 }
 
 /* Responsivo - para telas menores */
 @media (max-width: 768px) {
   .footer-container {
-    flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+    flex-direction: column;
   }
 
   .footer-logo, .footer-menu, .footer-social {
-    margin-bottom: 20px; /* Adiciona espaçamento entre os blocos */
+    margin-bottom: 20px;
   }
 }
