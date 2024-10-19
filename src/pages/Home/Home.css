@@ -158,7 +158,6 @@ main {
   line-height: 1.5;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .about-us-container, .map-description-container {
     flex-direction: column;

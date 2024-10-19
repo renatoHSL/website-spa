@@ -1,84 +1,84 @@
-/* Header.css */
+
 
 .header {
-  position: fixed; /* Mantém o header fixo no topo */
-  top: 0; /* Posiciona o header no topo da página */
-  left: 0; /* Garante que o header comece no canto esquerdo */
-  width: 100%; /* Faz o header ocupar toda a largura da página */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 20px 0;
-  border-bottom: 1px solid #a39789; /* Linha fina abaixo do header para separação visual */
-  border-top: 1px solid #a39789; /* Adiciona a linha acima do header */
-  background-color: #EFE8E0; /* Cor de fundo do header */
-  z-index: 1000; /* Garante que o header fique acima de outros elementos */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o header */
+  border-bottom: 1px solid #a39789;
+  border-top: 1px solid #a39789;
+  background-color: #EFE8E0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Container principal do Header */
+
 .header__container {
   display: flex;
-  flex-direction: column; /* Alinha os elementos em uma coluna (logo acima da navegação) */
-  align-items: center; /* Centraliza os itens (logotipo e navegação) horizontalmente */
-  max-width: 1200px; /* Define a largura máxima do container */
-  margin: 0 auto; /* Centraliza o container no meio da página */
-  padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
-  justify-content: center; /* Centraliza o conteúdo */
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: center;
 }
 
-/* Estilo do logotipo */
+
 .header__logo img {
-  height: 60px; /* Define a altura do logotipo */
+  height: 60px;
   margin-top: 10px;
-  margin-bottom: 5px; /* Adiciona um espaçamento entre o logotipo e a navegação */
+  margin-bottom: 5px;
 }
 
-/* Navegação (Lista de Links) */
+
 .header__nav {
   border-top: 1px solid #a39789;
   margin-top: 20px;
 }
 
 .header__nav ul {
-  display: flex; /* Coloca os itens da lista em uma linha horizontal */
-  justify-content: center; /* Centraliza os itens do menu */
-  align-items: center; /* Centraliza verticalmente os itens */
-  list-style: none; /* Remove os marcadores padrão da lista (pontos) */
-  padding: 10px 0 0 0; /* Remove o espaçamento interno da lista */
-  margin: 0; /* Remove as margens da lista */
-  gap: 30px; /* Define o espaçamento entre os links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px 0 0 0;
+  margin: 0;
+  gap: 30px;
 }
 
-/* Estilo dos Links de Navegação */
+
 .header__nav a {
-  font-size: 23px; /* Alinha o tamanho da fonte dos links */
+  font-size: 23px;
   text-decoration: none;
-  color: #7F6044; /* Altera a cor para coincidir com o restante do menu */
-  padding: 10px; /* Padding interno dos itens */
+  color: #7F6044;
+  padding: 10px;
 }
 
-/* Mudança de cor ao passar o mouse sobre os links */
+
 .header__nav a:hover {
-  color: #9c7b57; /* Cor dos links ao passar o mouse */
+  color: #9c7b57;
 }
 
-/* Ícone de Instagram */
+
 .header__social {
-  height: 30px; /* Define o tamanho do ícone de Instagram */
-  font-size: 30px; /* Define o tamanho do ícone do Instagram */
-  color: #7F6044; /* Define a cor do ícone */
+  height: 30px;
+  font-size: 30px;
+  color: #7F6044;
 }
 
-/* Remove o efeito de escala de cinza ao passar o mouse */
+
 .header__social:hover {
-  filter: grayscale(0); /* Remove o filtro de escala de cinza ao passar o mouse */
+  filter: grayscale(0);
 }
 
-/* Estilos para dispositivos móveis (Responsivo) */
+
 @media (max-width: 768px) {
   .header__container {
-    flex-direction: column; /* Alinha os elementos em uma coluna (logotipo acima da navegação) em telas menores */
+    flex-direction: column;
   }
 
   .header__nav {
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo da navegação em telas menores */
+    margin-bottom: 20px;
   }
 }

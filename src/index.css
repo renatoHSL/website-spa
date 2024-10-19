@@ -5,7 +5,7 @@ body, html {
   /* font-family: 'Montserrat', sans-serif; */
   margin: 0;
   padding: 0;
-  min-height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
-  box-sizing: border-box; /* Garante que padding e bordas não aumentem o tamanho dos elementos */
+  min-height: 100vh;
+  box-sizing: border-box;
   color: #7F6044
 }

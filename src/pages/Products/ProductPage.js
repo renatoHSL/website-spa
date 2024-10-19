@@ -1,4 +1,3 @@
-// src/pages/ProductPage/ProductPage.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import productsData from '../../data/productsData';
@@ -21,7 +20,7 @@ const ProductPageWrapper = () => {
 const ProductPage = ({ product }) => {
   return (
     <div className="product-page">
-      <div className="product-page-content"> {/* Adiciona esse contêiner */}
+      <div className="product-page-content">
         <img src={product.image} alt={product.title} className="product-image" />
         <div className="product-details">
           <h1 className="product-title">{product.title}</h1>

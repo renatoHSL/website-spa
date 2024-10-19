@@ -1,41 +1,41 @@
 .about-us {
   padding: 200px;
-  max-width: 1200px; /* Largura máxima do container */
-  margin: 0 auto; /* Centraliza o container */
-  line-height: 1.6; /* Espaçamento entre linhas */
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .about-content {
-  display: flex; /* Alinha a imagem e o texto lado a lado */
-  align-items: center; /* Centraliza verticalmente */
-  gap: 40px; /* Espaço entre o texto e a imagem */
-  flex-wrap: wrap; /* Permite que a imagem e o texto se ajustem em telas menores */
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .about-text {
-  flex: 1; /* O texto ocupa o espaço restante */
-  max-width: 600px; /* Largura máxima do texto */
+  flex: 1;
+  max-width: 600px;
 }
 
 .about-image {
-  flex: 1; /* A imagem ocupa o espaço restante */
-  max-width: 400px; /* Largura máxima da imagem */
+  flex: 1;
+  max-width: 400px;
 }
 
 .about-image img {
-  width: 100%; /* A imagem ocupa toda a largura do container */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
   .about-content {
-      flex-direction: column; /* Empilha o texto e a imagem em telas menores */
-      align-items: center; /* Centraliza o conteúdo */
+      flex-direction: column;
+      align-items: center;
   }
 
   .about-image {
-      max-width: 300px; /* Reduz a largura máxima da imagem em telas menores */
-      margin-bottom: 20px; /* Espaço inferior para a imagem */
+      max-width: 300px;
+      margin-bottom: 20px;
   }
 }

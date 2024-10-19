@@ -1,5 +1,4 @@
-// src/pages/ReviewsPage/ReviewsPage.js
-import './ReviewsPage.css'; // Importa o arquivo de estilo CSS
+import './ReviewsPage.css';
 import React from 'react';
 
 const ReviewsPage = () => {

@@ -9,7 +9,6 @@ const SocialButtons = () => {
 
   return (
     <div className="social-buttons-container">
-      {/* Botão do WhatsApp */}
       <a
         href={whatsappUrl}
         className="social-button whatsapp"
@@ -19,7 +18,6 @@ const SocialButtons = () => {
         <FontAwesomeIcon icon={faWhatsapp} size="2x" />
       </a>
 
-      {/* Botão do Instagram */}
       <a
         href={instagramUrl}
         className="social-button instagram"

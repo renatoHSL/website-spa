@@ -1,8 +1,7 @@
-// src/components/DropdownMenu/DropdownMenu.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './DropdownMenu.css';
-import productsData from '../../data/productsData'; // Importa os dados dos produtos
+import productsData from '../../data/productsData';
 
 const DropdownMenu = () => {
   return (

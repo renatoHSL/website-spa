@@ -1,15 +1,15 @@
-/* Página específica de produto */
+
 .product-page {
-    padding: 200px; /* Diminui o padding para algo mais razoável */
+    padding: 200px;
     font-family: 'Montserrat', Arial, sans-serif;
-    text-align: left; /* Alinha o texto à esquerda */
+    text-align: left;
     font-size: 16px;
 }
 
 .product-page-content {
     display: flex;
-    align-items: flex-start; /* Alinha os itens no topo */
-    gap: 30px; /* Espaçamento entre a imagem e o conteúdo */
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .products-list {
@@ -20,14 +20,14 @@
 }
 
 .product-image {
-    width: 50%; /* A imagem ocupa 50% da largura */
-    max-width: 500px; /* Define um limite de largura */
+    width: 50%;
+    max-width: 500px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
 .product-details {
-    flex: 1; /* O conteúdo textual ocupa o restante do espaço */
+    flex: 1;
 }
 
 .product-title {

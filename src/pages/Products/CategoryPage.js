@@ -1,4 +1,3 @@
-// src/pages/CategoryPage/CategoryPage.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import productsData from '../../data/productsData';
@@ -8,11 +7,9 @@ import './ServicesCategory.css';
 const CategoryPage = () => {
   const { categoryId } = useParams();
 
-  // Verifica se o categoryId corresponde a uma categoria válida no productsData
   const category = productsData.find(cat => cat.category.toLowerCase().replace(/\s+/g, '-') === categoryId);
 
   if (!category) {
-    // Se category for undefined, exibe uma mensagem de erro para o usuário
     return <div>Categoria não encontrada!</div>;
   }
 

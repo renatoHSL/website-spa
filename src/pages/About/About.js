@@ -1,5 +1,5 @@
-import React from 'react'; // Importa React para o uso de JSX e criação de componentes
-import './About.css'; // Importa o CSS para estilização
+import React from 'react';
+import './About.css';
 
 const About = () => {
     return (
@@ -24,7 +24,6 @@ const About = () => {
                     </div>
                     <div className="about-image">
                         <img src="" alt="Foto dos Donos do SPA" />
-                        {/* Substitua 'path/to/owners-photo.jpg' pelo caminho real da imagem */}
                     </div>
                 </div>
             </main>
