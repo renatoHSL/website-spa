@@ -4,7 +4,7 @@ import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './SocialButtons.css';
 
 const SocialButtons = () => {
-  const whatsappUrl = `https://wa.me/5511999999999`;
+  const whatsappUrl = `https://wa.me/5521996914156`;
   const instagramUrl = `https://www.instagram.com/egnestetica/`;
 
   return (

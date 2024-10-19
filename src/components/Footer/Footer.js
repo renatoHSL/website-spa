@@ -3,6 +3,8 @@ import './Footer.css';
 import logo from '../../assets/header/logo-header/header-logo.png'; // Caminho da imagem do logotipo
 import { FaInstagram, FaFacebook } from 'react-icons/fa'; // Ícone do Instagram
 
+
+//TODO
 const Footer = () => {
   return (
     <footer className="footer">
@@ -18,9 +20,8 @@ const Footer = () => {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">Sobre nós</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><a href="/services">Serviços</a></li>
+            <li><a href="https://wa.me/5521996914156" target="_blank" rel="noopener noreferrer">Contato</a></li>
           </ul>
         </div>
 
