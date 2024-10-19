@@ -5,181 +5,172 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', arial; /* Altera a fonte para Montserrat */
+  font-family: 'Montserrat', arial;
   margin: 0;
   padding: 0;
-  background-color: #EFE8E0; /* Cor de fundo global */
+  background-color: #EFE8E0;
 }
 
 main {
-    padding: 20px; /* Adiciona um espaçamento de 20px ao redor do conteúdo principal */
-    text-align: center; /* Centraliza o conteúdo dentro da tag <main> horizontalmente */
+    padding: 20px;
+    text-align: center;
 }
 
 .video-container {
-    display: flex; /* Define o container da imagem como um flexbox */
-    justify-content: center; /* Centraliza a imagem horizontalmente dentro do container */
-    align-items: center; /* Centraliza a imagem verticalmente dentro do container */
-    height: 50vh; /* Define a altura do container da imagem para 50% da altura da tela (viewport height) */
-    overflow: hidden; /* Oculta qualquer parte da imagem que ultrapasse o tamanho do container */
-    margin-top: 200px; /* Ajuste o valor conforme a altura do seu header */
-    padding: 20px;
-    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 200px;
+    padding: 20px;    padding-bottom: 80px;
     border-bottom: 1px solid #a39789;
 }
 
 .video-container img {
-    width: 50%; /* Define a largura da imagem para 50% da largura do container */
-    height: auto; /* Mantém a proporção da imagem ao redimensionar */
-    object-fit: cover; /* Garante que a imagem cubra toda a área visível, cortando se necessário para manter a proporção */
+    width: 50%;
+    height: auto;
+    object-fit: cover;
 }
 
 .about-us-container {
-    display: flex; /* Utiliza Flexbox para organizar o layout em colunas */
-    justify-content: space-between; /* Espaça o texto e a imagem nas extremidades */
-    align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 90px;
-    background-color: #EFE8E0; /* Cor de fundo do container */
-    border-radius: 10px; /* Bordas arredondadas */
-    max-width: 1000px; /* Define uma largura máxima */
-    margin: 20px auto; /* Centraliza o container horizontalmente */
-    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    background-color: #EFE8E0;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-bottom: 80px;
     border-bottom: 1px solid #a39789;
 }
 
-/* Texto e botão à esquerda */
 .about-us-text-container {
-    max-width: 50%; /* Define que o texto ocupa no máximo 50% do container */
-    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 50%;
+    text-align: left;
 }
 
 .about-us-text-container h2 {
-    font-size: 2.5rem; /* Tamanho grande para o título */
-    color: #7F6044; /* Cor do texto */
+    font-size: 2.5rem;
+    color: #7F6044;
 }
 
 .about-us-text-container p {
-    font-size: 1.2rem; /* Tamanho do parágrafo */
-    color: #7F6044; /* Cor do parágrafo */
-    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+    font-size: 1.2rem;
+    color: #7F6044;
+    margin-bottom: 20px;
 }
 
 
-/* Imagem à direita */
 .about-us-image-container {
-    max-width: 45%; /* Define que a imagem ocupa até 45% do container */
-    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 45%;
+    border-radius: 10px;
 }
 
 .about-us-image-container img {
-    width: 120%; /* Faz a imagem ocupar toda a largura do container da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Bordas arredondadas na imagem */
+    width: 120%;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Container principal da área de destaque dos produtos */
 .highlight-container {
-    padding: 40px; /* Espaçamento interno da seção */
-    text-align: center; /* Centraliza o conteúdo dentro da seção */
-    background-color: #EFE8E0; /* Cor de fundo suave */
-    border-radius: 10px; /* Bordas arredondadas */
-    max-width: 1200px; /* Largura máxima da seção */
-    margin: 20px auto; /* Centraliza a seção na tela */
-    padding-bottom: 80px; /* Adiciona espaço entre o vídeo e a linha */
+    padding: 40px;
+    text-align: center;
+    background-color: #EFE8E0;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-bottom: 80px;
     border-bottom: 1px solid #a39789;
 }
 
 .highlight-container h2 {
-    margin-bottom: 30px; /* Espaçamento inferior do título */
-    font-size: 2rem; /* Tamanho da fonte do título */
-    color: #7F6044; /* Cor do título */
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #7F6044;
 }
 
-/* Grade de produtos */
 .products-grid {
-    display: flex; /* Usa Flexbox para exibir os produtos lado a lado */
-    justify-content: space-around; /* Espaça os produtos igualmente */
-    flex-wrap: wrap; /* Permite que os itens "quebrem" em uma nova linha, se necessário */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-/* Estilo de cada item de produto */
 .product-item {
-    max-width: 30%; /* Cada produto ocupa cerca de 30% da largura do container */
-    margin: 10px; /* Espaçamento ao redor de cada item */
-    text-align: center; /* Centraliza o texto e imagem dentro do produto */
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
 }
 
 .product-item img {
-    width: 100%; /* A imagem ocupa toda a largura do container do produto */
-    border-radius: 8px; /* Bordas arredondadas na imagem */
-    margin-bottom: 10px; /* Espaço entre a imagem e a descrição */
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .product-item p {
-    font-size: 1.2rem; /* Tamanho da fonte da descrição */
-    color: #555; /* Cor da fonte da descrição */
+    font-size: 1.2rem;
+    color: #555;
 }
 
-/* Estilo do botão que troca as imagens */
 .change-images-button {
-    margin-top: 20px; /* Espaço acima do botão */
-    padding: 10px 20px; /* Tamanho do botão */
-    font-size: 1rem; /* Tamanho da fonte do botão */
-    background-color: #7F6044; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    border: none; /* Remove bordas padrão */
-    border-radius: 5px; /* Bordas arredondadas no botão */
-    cursor: pointer; /* Mostra o cursor de "mão" ao passar sobre o botão */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #7F6044;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .change-images-button:hover {
-    background-color: #9c7b57; /* Cor de fundo quando o botão é "hovered" */
+    background-color: #9c7b57;
 }
 
 .map-container {
-  margin: 10px auto; /* Centraliza o contêiner horizontalmente com margem */
-  max-width: 900px; /* Define a largura máxima do contêiner */
-  height: 500px; /* Define a altura fixa do contêiner */
-  border-radius: 10px; /* Adiciona bordas arredondadas */
-  overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
-  padding: 50px; /* Espaçamento interno do contêiner */
-  text-align: center; /* Centraliza o texto dentro do contêiner */
+  margin: 10px auto;
+  max-width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 50px;
+  text-align: center;
 }
 
 .map-description-container {
-  display: flex; /* Exibe os itens em um layout flexível */
-  justify-content: space-between; /* Espaça igualmente os itens no contêiner */
-  margin-bottom: 20px; /* Adiciona espaço abaixo do contêiner */
-  max-width: 100%; /* Limita a largura máxima a 100% do pai */
-  text-align: left; /* Alinha o texto à esquerda */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 100%;
+  text-align: left;
 }
 
 .map-description-block {
-  flex: 1; /* Itens crescem igualmente dentro do contêiner flex */
-  min-width: 200px; /* Define a largura mínima dos blocos */
-  text-align: center; /* Centraliza o texto dentro do bloco */
-  color: #7F6044; /* Define a cor do texto */
-  padding: 10px; /* Adiciona espaçamento interno ao bloco */
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  color: #7F6044;
+  padding: 10px;
 }
 
 .map-description-block p {
-  margin: 0; /* Remove margens externas do parágrafo */
-  line-height: 1.5; /* Define a altura da linha */
+  margin: 0;
+  line-height: 1.5;
 }
 
-/* Responsivo - Para telas menores */
+/* Responsivo */
 @media (max-width: 768px) {
   .about-us-container, .map-description-container {
-    flex-direction: column; /* Empilha os itens verticalmente */
-    text-align: center; /* Centraliza o texto em dispositivos menores */
+    flex-direction: column;
+    text-align: center;
   }
 
   .products-grid {
-    flex-direction: column; /* Alinha produtos em coluna para telas menores */
+    flex-direction: column;
   }
 
   .about-us-text-container, .about-us-image-container {
-    max-width: 100%; /* Define largura máxima para 100% */
+    max-width: 100%;
   }
 }
 
